@@ -1,0 +1,160 @@
+body{
+    background-color: #222;
+}
+.heading{
+    color: blueviolet;
+    margin-left: 800px;
+}
+.ramen-menu{
+    height: 200px;
+    background:linear-gradient(blueviolet,transparent);
+    display: flex;
+    flex-direction: row;
+    
+}
+.ramen-detail{
+    height: 600px;
+    width: 900px;
+    background-color:transparent;
+    position: relative;
+
+}
+.forum{
+    position: absolute;
+    margin-left: 1200px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 500px;
+     background-color: black;
+     width: 500px;
+     height: 500px;
+     margin-top: 45px;
+     color: blueviolet;
+     overflow: hidden;
+    }
+    .forum::before{
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 380px;
+        height: 420px;
+        background: linear-gradient(0deg,transparent,transparent,blueviolet,blueviolet,blueviolet);
+        z-index: 1;
+        transform-origin: bottom right;
+        animation: animate 6s linear infinite ;
+    }
+    .forum::after{
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 380px;
+        height: 420px;
+        background: linear-gradient(0deg,transparent,transparent,blueviolet,blueviolet,blueviolet);
+        z-index: 1;
+        transform-origin: bottom right;
+        animation: animate 6s linear infinite ;
+    }
+@keyframes animate{
+0%{
+    transform: rotate(0deg);
+
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+.forum form{
+    position: absolute;
+    inset: 4px;
+    background: #222;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column; 
+}
+.forum form h1{
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.forum form .input-box {
+    position: relative;
+    width: 300px;
+    margin-top: 35px;  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background:blueviolet;
+    border-radius: 4px;   
+}
+.forum form .input-box input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color:white;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+
+}
+
+.forum form .input-box span{
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px ;
+    pointer-events: none;
+    color: blueviolet;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.forum form button{
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: blueviolet;
+   
+}
+.forum form .input-box input:valid ~ span,.forum form .input-box input:focus ~ span{
+    color: blueviolet;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+
+
+}
+.image{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+  border-color: blueviolet;
+  position: absolute;
+}
+.details{
+
+    width: 900px;
+    height: 300px;
+    border: solid 2px;
+    border-color:blueviolet;
+    position: absolute;
+    color: blueviolet;
+    bottom: 0;
+}
+#review{
+    background-color: transparent;
+}
+#review textarea input{
+   color: white;
+}

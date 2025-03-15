@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
+    <h1 class="heading">RAMEN RATER APP</h1>
+    <div class="ramen-menu"> </div>
+    <div class="ramen-detail">
+     <div class="image"></div>
+     <div class="details"></div>
+     <div class="forum">
+    <form action="#" id="register-form">
+        <h1>REVIEW</h1>
+        <div>
+     <div class="input-box">
+        <span>name</span>
+        <i></i>
+     <input type="text" required="required" id="name">
+      </div>
+    <div class="input-box">
+    <span>restaurant</span>
+    <i></i>
+    <input type="text" required="required" id="restaurant">
+    </div>
+    <div class="input-box">
+        <span>images/_.jpg</span>
+        <i></i>
+        <input type="text" list="text" name="text" id="images" required="required">
+        <datalist id="text">
+            <option value="images/gyukotsu.jpg">
+            <option value="images/kojiro.jpg">
+            <option value="images/naruto.jpg">
+            <option value="images/nirvana.jpg">
+            <option value="images/shoyu.jpg">
+            <option value="images/miso.png">
+            <option value="images/noodles.png">
+            </datalist>
+            
+        </div>
+    <div class="input-box">
+    <span>rating</span>
+   <i></i>
+    <input type="number"  list="numbers" name="numbers" id="rating" required="required" min="0" max="10">
+    <datalist id="numbers">
+    <option value="1">
+    <option value="2">
+    <option value="3">
+    <option value="4">
+    <option value="5">
+    <option value="6">
+    <option value="7">
+    <option value="8">
+    <option value="9">
+    <option value="10">
+    </datalist>
+    </div>
+    <div class="input-box">
+    <span>review</span>
+    <i></i>
+   <input type="text" required="required" id="review">
+   <hr>
+    </div>
+   
+    <div>
+    <button class="submit" type="submit">submit</button>
+    </div>
+        </form>
+        </div>
+    </div>
     
+    <script src="index.js"></script>    
 </body>
 </html>
