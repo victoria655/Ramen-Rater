@@ -9,9 +9,13 @@ Praise Victoria
 
 
 Setup Instructions
+
 1.Clone the repository
+
 2.Navigate to the project directory through a code editor like VS code  after cloning
+
 3.Open the html file and go live using a browser 
+
 4.Fill in the form that you see once the page loads
 
 
