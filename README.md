@@ -4,8 +4,7 @@ This platform enables users to rate ramen noodles based on their personal experi
 Users can submit reviews, provide ratings, and update their feedback on previously rated ramen varieties. 
 The platform ensures a user-friendly interface for seamless rating and editing experiences.
 
-Author:
-Praise Victoria
+Author:Praise Victoria
 
 
 Setup Instructions
@@ -21,23 +20,30 @@ Setup Instructions
 
 
 Behaviour-Driven Development (BDD)
+
 Feature 1:
 one can be able to view already rated dishes 
+
 Feature 2:
 one can upload new dishes and actually rate them
+
 Feature 3:
 one can review already rated dishes
 
 
 
 Technologies Used:
+
 HTML-for structuring the web page
+
 CSS-for styling the webpage
+
 Javascript-for adding interactivity of the page with the user
 
 Known Issue
--The data is not stored in the browser
--One can only rate the 8 dishes which are all in the image choices which one sees when they fill in the form
+1.The data is not stored in the browser
+
+2.One can only rate the 8 dishes which are all in the image choices which one sees when they fill in the form
 
 
 Contact Information:
