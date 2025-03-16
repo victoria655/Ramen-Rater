@@ -1,5 +1,7 @@
-RAMEN RATER                                                                                                                                                                                        
+RAMEN RATER 
+
 Project Overview:
+
 This platform enables users to rate ramen noodles based on their personal experiences, helping others discover the best options available.
 Users can submit reviews, provide ratings, and update their feedback on previously rated ramen varieties. 
 The platform ensures a user-friendly interface for seamless rating and editing experiences.
@@ -41,28 +43,33 @@ CSS-for styling the webpage
 Javascript-for adding interactivity of the page with the user
 
 Known Issue
+
 1.The data is not stored in the browser
 
 2.One can only rate the 8 dishes which are all in the image choices which one sees when they fill in the form
 
 
 Contact Information:
+
  Feel free to reach out incase of any inquiry
+ 
  Email:karonjivictoria@gmail.com
+ 
  phone number:0743823450
 
 
 License and Copyright Information
 
 License:
+
 This project is licensed under the MORINGA license.
 
-Copyright © 2025 Praise Victoria.
-All rights reserved.
+Copyright © 2025 Praise Victoria.All rights reserved.
 
 
   
 Link To Live Site :
+
 Your site is live at https://victoria655.github.io/Ramen-Rater/
 
 
