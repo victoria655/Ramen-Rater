@@ -28,10 +28,10 @@ body{
      align-items: center;
      min-height: 500px;
      background-color: black;
-     width: 500px;
-     height: 500px;
+     width: 420px;
+     height: 520px;
      margin-top: 45px;
-     color: blueviolet;
+     color:blueviolet;
      overflow: hidden;
     }
     .forum::before{
@@ -69,9 +69,11 @@ body{
 }
 .forum form{
     position: absolute;
+    margin-right: 5px;
+    margin-bottom: 4px;
     inset: 4px;
     background: #222;
-    padding: 50px 40px;
+    padding: 20px 10px 10px;
     border-radius: 8px;
     z-index: 2;
     display: flex;
@@ -152,12 +154,15 @@ body{
     position: absolute;
     color: blueviolet;
     bottom: 0;
+    background-color: transparent;
 }
+
 #review{
     background-color: transparent;
 }
 
 /* 📱 Mobile (max-width: 480px) */
+
 @media screen and (max-width: 480px) {
   body{
     width: 480px;
@@ -220,82 +225,3 @@ color: blueviolet;
 margin-top: 65px;
 }
 
-   
-   /* 📱 Tablet (481px - 768px) */
-   @media screen and (min-width: 481px) and (max-width: 768px) {
-    @media screen and (max-width: 480px) {
-        body {
-            width: 768px;
-            position: relative;
-          }
-        
-          .heading {
-            position: absolute;
-            font-size: 24px;
-           
-          }
-        
-          .ramen-menu {
-           
-            width: 600px;
-            height: 120px;
-            display: flex;
-            flex-direction: row;
-            position: relative;
-            margin-top: 60px;
-          }
-        
-          .ramen-detail {
-            width: 768px;
-            height: 600px;
-            position: relative;
-          }
-        
-          .details {
-            width: 700px;
-            height: 300px;
-            position: absolute;
-          }
-        
-          .forum {
-            position: absolute;
-            width: 90%;
-            margin: 2px auto;
-            left: 0;
-            margin-top: 650px;
-          }
-        }
-        
-        .forum form {
-          position: relative; /* FIX */
-          background: #222;
-          padding: 100px 110px;
-          border-radius: 8px;
-          z-index: 2;
-          display: flex;
-          flex-direction: column;
-        }
-        
-        .forum form button {
-          position: relative; /* FIX */
-          background-color: transparent;
-          color: blueviolet;
-          margin-top: 75px;
-        }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-       
-      
-   }
-        
-  
-   
-   
-   
